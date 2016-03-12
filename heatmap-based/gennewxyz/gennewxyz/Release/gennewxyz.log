@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/1/18 20:37:51。
+     1>项目“D:\CNN\gennewxyz\gennewxyz\gennewxyz.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\gennewxyz.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gennewxyz.cpp
+         gennewxyz.cpp
+     1>gennewxyz.cpp(47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>gennewxyz.cpp(66): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>gennewxyz.cpp(67): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CNN\gennewxyz\Release\gennewxyz.exe" /INCREMENTAL:NO /NOLOGO opencv_ts300.lib opencv_world300.lib IlmImf.lib ippicvmt.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CNN\gennewxyz\Release\gennewxyz.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CNN\gennewxyz\Release\gennewxyz.lib" /MACHINE:X86 /SAFESEH Release\gennewxyz.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         gennewxyz.vcxproj -> D:\CNN\gennewxyz\Release\gennewxyz.exe
+     1>已完成生成项目“D:\CNN\gennewxyz\gennewxyz\gennewxyz.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.76

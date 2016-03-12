@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/1/15 15:02:02。
+     1>项目“D:\CNN\genlibtest\genlibtest\genlibtest\genlibtest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\genlibtest.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt genlibtest.cpp
+         genlibtest.cpp
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(109): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(162): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(170): warning C4101: “datasetwhiteid”: 未引用的局部变量
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(173): warning C4101: “dimsdataori”: 未引用的局部变量
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(170): warning C4101: “dataspacewhiteid”: 未引用的局部变量
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(170): warning C4101: “dataspaceoriid”: 未引用的局部变量
+     1>d:\cnn\genlibtest\genlibtest\genlibtest\genlibtest.cpp(170): warning C4101: “datasetoriid”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CNN\genlibtest\genlibtest\Debug\genlibtest.exe" /INCREMENTAL /NOLOGO szip.lib zlib.lib hdf5.lib hdf5_cpp.lib opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CNN\genlibtest\genlibtest\Debug\genlibtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CNN\genlibtest\genlibtest\Debug\genlibtest.lib" /MACHINE:X86 Debug\genlibtest.obj
+         Debug\stdafx.obj
+         genlibtest.vcxproj -> D:\CNN\genlibtest\genlibtest\Debug\genlibtest.exe
+     1>已完成生成项目“D:\CNN\genlibtest\genlibtest\genlibtest\genlibtest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.96

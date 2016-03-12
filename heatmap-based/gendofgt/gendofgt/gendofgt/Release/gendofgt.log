@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/1/28 0:12:54。
+     1>项目“D:\CNN\gendofgt\gendofgt\gendofgt\gendofgt.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\gendofgt.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gendofgt.cpp
+         gendofgt.cpp
+     1>c:\program files (x86)\hdf_group\hdf5\1.8.15\include\H5Exception.h(89): warning C4251: “H5::Exception::detail_message”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“H5::Exception”的客户端使用
+     1>c:\program files (x86)\hdf_group\hdf5\1.8.15\include\H5Exception.h(90): warning C4251: “H5::Exception::func_name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“H5::Exception”的客户端使用
+     1>gendofgt.cpp(74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>gendofgt.cpp(82): warning C4101: “datasetwhiteid”: 未引用的局部变量
+     1>gendofgt.cpp(85): warning C4101: “dimsdataori”: 未引用的局部变量
+     1>gendofgt.cpp(82): warning C4101: “dataspacewhiteid”: 未引用的局部变量
+     1>gendofgt.cpp(82): warning C4101: “dataspaceoriid”: 未引用的局部变量
+     1>gendofgt.cpp(82): warning C4101: “datasetoriid”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CNN\gendofgt\gendofgt\Release\gendofgt.exe" /INCREMENTAL:NO /NOLOGO szip.lib zlib.lib hdf5.lib hdf5_cpp.lib opencv_ts300.lib opencv_world300.lib IlmImf.lib ippicvmt.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CNN\gendofgt\gendofgt\Release\gendofgt.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CNN\gendofgt\gendofgt\Release\gendofgt.lib" /MACHINE:X86 /SAFESEH Release\gendofgt.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         gendofgt.vcxproj -> D:\CNN\gendofgt\gendofgt\Release\gendofgt.exe
+     1>已完成生成项目“D:\CNN\gendofgt\gendofgt\gendofgt\gendofgt.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.34

@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/10/8 18:23:16。
+     1>项目“D:\CNN\genonlydepth\genonlydepth\genonlydepth\genonlydepth.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\genonlydepth.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt genonlydepth.cpp
+         genonlydepth.cpp
+     1>genonlydepth.cpp(97): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>genonlydepth.cpp(115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CNN\genonlydepth\genonlydepth\Release\genonlydepth.exe" /INCREMENTAL:NO /NOLOGO szip.lib zlib.lib hdf5.lib hdf5_cpp.lib opencv_ts300.lib opencv_world300.lib IlmImf.lib ippicvmt.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CNN\genonlydepth\genonlydepth\Release\genonlydepth.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CNN\genonlydepth\genonlydepth\Release\genonlydepth.lib" /MACHINE:X86 /SAFESEH Release\genonlydepth.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         genonlydepth.vcxproj -> D:\CNN\genonlydepth\genonlydepth\Release\genonlydepth.exe
+     1>已完成生成项目“D:\CNN\genonlydepth\genonlydepth\genonlydepth\genonlydepth.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.06

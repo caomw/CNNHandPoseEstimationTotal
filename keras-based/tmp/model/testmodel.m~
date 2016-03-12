@@ -1,0 +1,46 @@
+clear
+d=(1:26)*0;
+
+d(4)=pi/4;
+d(5)=pi/5;
+d(6)=pi/6;
+
+d(7)=0.1;
+d(8)=pi/2;
+d(9)=pi/4;
+d(10)=pi/4;
+
+d(11)=pi/4;
+d(12)=pi/4;
+d(13)=pi/6;
+d(14)=pi/4;
+
+d()
+
+x=model(d);
+
+for i=1:16
+   plot3(x(i,1),x(i,2),x(i,3),'b*')
+   hold on;
+   axis equal;
+end
+for i=17:24
+   plot3(x(i,1),x(i,2),x(i,3),'r*')
+   hold on;
+end
+for i=25:30
+   plot3(x(i,1),x(i,2),x(i,3),'g*');
+   hold on;
+end
+for i=31:36
+   plot3(x(i,1),x(i,2),x(i,3),'y*');
+   hold on;
+end
+for i=37:42
+   plot3(x(i,1),x(i,2),x(i,3),'m*');
+   hold on;
+end
+for i=43:46
+   plot3(x(i,1),x(i,2),x(i,3),'k*');
+   hold on;
+end

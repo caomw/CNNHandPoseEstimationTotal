@@ -1,0 +1,7 @@
+no spatial transform network
+
+cnn1 testcnn1 showmiddle tmp graphstruct graphmodel
+
+with spatial transform network
+
+

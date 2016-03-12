@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/1/20 20:55:28。
+     1>项目“D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\gennormalizeddeepprior\gennormalizeddeepprior.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\gennormalizeddeepprior.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\gennormalizeddeepprior.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gennormalizeddeepprior.cpp
+         gennormalizeddeepprior.cpp
+     1>gennormalizeddeepprior.cpp(117): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>gennormalizeddeepprior.cpp(136): warning C4101: “datasetwhiteid”: 未引用的局部变量
+     1>gennormalizeddeepprior.cpp(139): warning C4101: “dimsdataori”: 未引用的局部变量
+     1>gennormalizeddeepprior.cpp(136): warning C4101: “dataspacewhiteid”: 未引用的局部变量
+     1>gennormalizeddeepprior.cpp(136): warning C4101: “dataspaceoriid”: 未引用的局部变量
+     1>gennormalizeddeepprior.cpp(136): warning C4101: “datasetoriid”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\Release\gennormalizeddeepprior.exe" /INCREMENTAL:NO /NOLOGO szip.lib zlib.lib hdf5.lib hdf5_cpp.lib opencv_ts300.lib opencv_world300.lib IlmImf.lib ippicvmt.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\Release\gennormalizeddeepprior.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\Release\gennormalizeddeepprior.lib" /MACHINE:X86 /SAFESEH Release\gennormalizeddeepprior.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         gennormalizeddeepprior.vcxproj -> D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\Release\gennormalizeddeepprior.exe
+     1>已完成生成项目“D:\CNN\gennormalizeddeepprior\gennormalizeddeepprior\gennormalizeddeepprior\gennormalizeddeepprior.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.66
